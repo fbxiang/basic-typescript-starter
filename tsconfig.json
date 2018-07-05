@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "noImplicitAny": true,
+    "strictNullChecks": true,
     "module": "commonjs",
     "lib": ["es2015", "es2017", "dom"],
     "sourceMap": true

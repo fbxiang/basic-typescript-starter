@@ -14,7 +14,7 @@ module.exports = {
     template: "./frontend/index.html"
   })],
   module: {
-    loaders: [
+    rules: [
       {test: /\.tsx?$/, loader: "ts-loader"},
       {test: /\.css/, loader: "style-loader!css-loader"}
     ]
@@ -23,5 +23,6 @@ module.exports = {
     contentBase: path.join(__dirname, "dist"),
     compress: true,
     port: 8080
-  }
+  },
+  mode: "development"
 };
