@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "frontend": "webpack-dev-server",
     "backend": "nodemon"
   },
@@ -26,6 +27,6 @@
     "typings-for-css-modules-loader": "^1.5.0",
     "webpack": "^4.15.0",
     "webpack-cli": "^3.0.8",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-dev-server": "^3.1.14"
   }
 }
